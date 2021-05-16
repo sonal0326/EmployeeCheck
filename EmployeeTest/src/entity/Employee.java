@@ -5,7 +5,14 @@ public class Employee {
 	private int age;
 	private String address;
 	private int empId;
+	private int salary;
 	
+	public int getSalary() {
+		return salary;
+	}
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
 	public int getEmpId() {
 		return empId;
 	}
