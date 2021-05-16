@@ -9,7 +9,9 @@ public class TestEmployee {
 		Employee emp1 = new Employee();
 		emp1.setName("Sonal");
 		emp1.setAge(21);
+		emp1.setAdd("pune");
 		System.out.println("Get Employee 1 details:");
 		System.out.println("Employee Name: " + emp1.getName());
+		System.out.println("Employee address : " + emp1.getAdd());
 	}
 }
