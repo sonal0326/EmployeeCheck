@@ -11,9 +11,11 @@ public class TestEmployee {
 		emp1.setAge(21);
 		emp1.setAdd("pune");
 		emp1.setEmpId(101);
+		emp1.setSalary(6000);
 		System.out.println("Get Employee 1 details:");
 		System.out.println("Employee Name: " + emp1.getName());
 		System.out.println("Employee address : " + emp1.getAdd());
 		System.out.println("Employee ID: " + emp1.getEmpId());
+		System.out.println("Employee Salary : " + emp1.getSalary());
 	}
 }
